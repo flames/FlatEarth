@@ -1,0 +1,18 @@
+name: FlatEarth
+main: de.procrafter.flames.bukkit.flatearth.FlatEarth
+version: 0.6
+description: >
+             Flatearth and Freespace plugin.
+commands:
+  flatearth:
+    description: Makes bedrock flat and gapfree. Maximum radius is 1000
+    usage: |
+           /<command> [radius]
+           Example: /<command> - flattens bedrock in a radius of 8 blocks around you.
+           Example: /<command> radius - flattens bedrock in a specified radius around you.
+  freespace:
+    description: Removes all blocks except of bedrock. Maximum radius is 1000
+    usage: |
+           /<command> [radius]
+           Example: /<command> removes everything except bedrock in a radius of 8 blocks around you.
+           Example: /<command> radius - removes everything except bedrock in a specified radius around you.
