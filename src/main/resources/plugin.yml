@@ -1,6 +1,6 @@
 name: FlatEarth
-main: de.procrafter.flames.bukkit.flatearth.FlatEarth
-version: 0.6
+main: de.procrafter.flames.flatearth.FlatEarth
+version: 0.7
 description: >
              Flatearth and Freespace plugin.
 commands:
