@@ -52,7 +52,7 @@ public class FlatEarthPlayerListener extends PlayerListener {
 				for (int i = x - FlatEarth.CheckRadius; i < x + FlatEarth.CheckRadius + 1; i++) {
 					for (int j = z - FlatEarth.CheckRadius - 1; j < z + FlatEarth.CheckRadius; j++) {
 						//if (world.isChunkLoaded(world.getChunkAt(world.getBlockAt(i, 0, j)))) {
-						if (world.getBlockAt(i, 0, j).getTypeId() != 7) world.getBlockAt(i, 0, j).setTypeId(7);
+						if (world.getBlockAt(i, 0, j).getTypeId() == 0) world.getBlockAt(i, 0, j).setTypeId(7);
 
 						if (world.getBlockAt(i, 1, j).getTypeId() == 7) world.getBlockAt(i, 1, j).setTypeId(1);
 						if (world.getBlockAt(i, 2, j).getTypeId() == 7) world.getBlockAt(i, 2, j).setTypeId(1);
