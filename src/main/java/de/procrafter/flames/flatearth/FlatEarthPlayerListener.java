@@ -20,7 +20,7 @@ public class FlatEarthPlayerListener extends PlayerListener {
 		Player player = event.getPlayer();
 		World world = player.getWorld();
 
-		if (FlatEarthPermissions.flatearth(player)) {
+		if (FlatEarthPermissions.onmove(player)) {
 			int x = player.getLocation().getBlockX();
 			int z = player.getLocation().getBlockZ();
 
